@@ -6,7 +6,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "Producers_Movies")
-public class ProducerMovie extends BaseEntity {
+public class MovieProducer extends BaseEntity {
     @Column(nullable = false)
     public int ProducerId;
 
