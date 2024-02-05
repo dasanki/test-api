@@ -1,4 +1,4 @@
-package com.entities;
+package com.test.testapi.entities;
 
 import java.sql.Date;
 
@@ -7,12 +7,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="producers")
+@Table(name = "producers")
 public class Producer extends BaseEntity {
     @Column(nullable = false)
     public String name;
 
-    @Column( name = "Dob" , nullable = false)
+    @Column(name = "Dob", nullable = false)
     public Date dateOfBirth;
 
     @Column(nullable = false)

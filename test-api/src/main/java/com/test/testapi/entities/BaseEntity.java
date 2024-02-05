@@ -1,4 +1,4 @@
-package com.entities;
+package com.test.testapi.entities;
 
 import java.sql.Date;
 
@@ -10,10 +10,10 @@ import jakarta.persistence.Id;
 public class BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-   public int id;
+    public int id;
 
-   @Column(nullable = false)
-   public Date CreatedAt;
+    @Column(nullable = false)
+    public Date CreatedAt;
 
-   public Date UpdatedAt;
+    public Date UpdatedAt;
 }

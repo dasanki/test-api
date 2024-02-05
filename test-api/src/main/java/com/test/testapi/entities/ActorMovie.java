@@ -1,15 +1,14 @@
-package com.entities;
+package com.test.testapi.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "Genres_Movies")
-public class GenreMovie extends BaseEntity{
-
+@Table(name = "Actors_Movies")
+public class ActorMovie extends BaseEntity {
     @Column(nullable = false)
-    public int GenreId;
+    public int ActorId;
 
     @Column(nullable = false)
     public int MovieId;

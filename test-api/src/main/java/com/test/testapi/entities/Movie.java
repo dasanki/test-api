@@ -1,13 +1,14 @@
-package com.entities;
+package com.test.testapi.entities;
 
 import java.sql.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+
 @Entity
-@Table(name="movies")
-public class Movie extends BaseEntity{
+@Table(name = "movies")
+public class Movie extends BaseEntity {
     @Column(nullable = false)
     public String name;
 
