@@ -2,7 +2,7 @@ package com.test.services.Interfaces;
 
 import com.test.testapi.entities.Genre;
 
-public interface BaseGenreServices {
+public interface BaseGenreService {
     Iterable<Genre> getAll();
 
     Genre get(int id);

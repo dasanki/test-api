@@ -2,7 +2,7 @@ package com.test.services.Interfaces;
 
 import com.test.testapi.entities.MovieProducer;
 
-public interface BaseMovieProducerServices {
+public interface BaseMovieProducerService {
     Iterable<MovieProducer> getAll();
 
     MovieProducer get(int id);

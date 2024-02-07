@@ -2,7 +2,7 @@ package com.test.services.Interfaces;
 
 import com.test.testapi.entities.Actor;
 
-public interface BaseActorServices {
+public interface BaseActorService {
     Iterable<Actor> getAll();
 
     Actor get(int id);

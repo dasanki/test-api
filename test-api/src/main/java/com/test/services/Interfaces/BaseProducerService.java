@@ -2,7 +2,7 @@ package com.test.services.Interfaces;
 
 import com.test.testapi.entities.Producer;
 
-public interface BaseProducerServices {
+public interface BaseProducerService {
     Iterable<Producer> getAll();
 
     Producer get(int id);
